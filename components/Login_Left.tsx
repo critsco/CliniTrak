@@ -6,7 +6,6 @@ import { useState } from 'react';
 import { BiShow } from "react-icons/bi";
 import { GrHide } from "react-icons/gr";
 import { MdOutlineLock, MdOutlineMailOutline } from "react-icons/md";
-import Button from "./Button";
 
 const Login_Left = () => {
   const [passwordVisible, setPasswordVisible] = useState(false);
